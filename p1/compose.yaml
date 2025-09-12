@@ -1,0 +1,5 @@
+services:
+  ctf-practice-p1:
+    build: .
+    ports:
+      - "30728:8000"
