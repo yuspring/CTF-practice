@@ -1,0 +1,6 @@
+services:
+  ctf-practice-p2:
+    build: .
+    platform: linux/i386
+    ports:
+      - "30729:8000"
