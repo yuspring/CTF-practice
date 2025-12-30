@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM --platform=linux/i386 debian:bookworm-slim
 		
 RUN mkdir -p /var/www/html/
 COPY ./index.html /var/www/html/
